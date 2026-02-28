@@ -1,0 +1,216 @@
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ ls
+README.md  esercizi  report.txt  sandbox  setup.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd esercizi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ pwd
+/workspaces/lezione-bash-01-VitoMongelli/esercizi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd esercizi
+bash: cd: esercizi: No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd documenti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/documenti (main) $ ls
+lettere  report
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/documenti (main) $ cd report
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/documenti/report (main) $ ls
+2023  2024
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/documenti/report (main) $ cd 2024
+@VitoMongelli ➜ .../esercizi/documenti/report/2024 (main) $ ls
+vendite_q1.txt
+@VitoMongelli ➜ .../esercizi/documenti/report/2024 (main) $ cd ..
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/documenti/report (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/documenti (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/progetti (main) $ ls
+script  webapp
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/progetti (main) $ cd webapp
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/progetti/webapp (main) $ ls
+docs  src
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/progetti/webapp (main) $ cd src
+@VitoMongelli ➜ .../esercizi/progetti/webapp/src (main) $ pwd
+/workspaces/lezione-bash-01-VitoMongelli/esercizi/progetti/webapp/src
+@VitoMongelli ➜ .../esercizi/progetti/webapp/src (main) $ cd ../../../..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ pwd
+/workspaces/lezione-bash-01-VitoMongelli
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd esercizi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd documenti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/documenti (main) $ ls
+lettere  report
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/documenti (main) $ cd lettere
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/documenti/lettere (main) $ ls
+lettera1.txt  lettera2.txt
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/documenti/lettere (main) $ cd ../../immagini/vacanze
+@VitoMongelli ➜ .../lezione-bash-01-VitoMongelli/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-VitoMongelli/esercizi/immagini/vacanze
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ ~
+bash: /home/codespace: Is a directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd ~
+@VitoMongelli ➜ ~ $ pwd
+/home/codespace
+@VitoMongelli ➜ ~ $ cd -
+/workspaces/lezione-bash-01-VitoMongelli
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ pwd
+/workspaces/lezione-bash-01-VitoMongelli
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ ls
+README.md  esercizi  report.txt  sandbox  setup.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd sandbox
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls
+test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir alfa beta gamma
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls
+alfa  beta  gamma  test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir livello1/livello2/livello3
+mkdir: cannot create directory ‘livello1/livello2/livello3’: No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir -p  livello1/livello2/livello3
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ tree livello1
+livello1
+└── livello2
+    └── livello3
+
+3 directories, 0 files
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir -p archivio/{2022,2023,2024}/{entrate,uscite}
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ tree archivio
+archivio
+├── 2022
+│   ├── entrate
+│   └── uscite
+├── 2023
+│   ├── entrate
+│   └── uscite
+└── 2024
+    ├── entrate
+    └── uscite
+
+10 directories, 0 files
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ cd test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox/test (main) $ rmdir alfa
+rmdir: failed to remove 'alfa': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox/test (main) $ ls
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox/test (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rmdir livello1
+rmdir: failed to remove 'livello1': Directory not empty
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r livello1
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls
+alfa  archivio  beta  gamma  test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm - archivio
+rm: cannot remove '-': No such file or directory
+rm: cannot remove 'archivio': Is a directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r archivio
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r test
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls
+alfa  beta  gamma
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd esercizi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls -l
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb  2 11:10 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd ~
+@VitoMongelli ➜ ~ $ ls
+java  nvm
+@VitoMongelli ➜ ~ $ ls -a
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .conda  .config  .docker  .dotnet  .gitconfig  .hugo  .jupyter  .local  .maven  .minikube  .nvs  .oh-my-zsh  .php  .profile  .python  .rbenv  .ruby  .rvmrc  .vscode-remote  .zprofile  .zshrc  java  nvm
+@VitoMongelli ➜ ~ $ ls -l /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  2 11:10 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  2 11:10 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  2 11:10 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  2 11:10 pubblico.txt
+---------- 1 codespace codespace 48 Feb  2 11:10 segreto.txt
+@VitoMongelli ➜ ~ $ ls
+java  nvm
+@VitoMongelli ➜ ~ $ cd -
+/workspaces/lezione-bash-01-VitoMongelli/esercizi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd permessi
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ls -l
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb  2 11:10 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb  2 11:10 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb  2 11:10 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb  2 11:10 pubblico.txt
+---------- 1 codespace codespace 48 Feb  2 11:10 segreto.txt
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat pubblico.tzt
+cat: pubblico.tzt: No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat pubblico.txt
+File pubblico - tutti possono leggere
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat privato.txt
+File privato - solo il proprietario
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat segreto.txt
+cat: segreto.txt: Permission denied
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ./eseguibile.sh
+Sono eseguibile!
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ./non_eseguibile.sh
+bash: ./non_eseguibile.sh: Permission denied
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ls -l /workspaces/lezione-bash-01-VitoMongelli/esercizi
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb  2 11:10 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb  2 11:10 progetti
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat segreto.txt
+cat: segreto.txt: Permission denied
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ chmod u+r segreto.txt
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cat segreto.txt
+File segreto - solo lettura per il proprietario
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ chmod u+x non_eseguibile.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ./non_eseguibile.sh
+Script non eseguibile
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ ls -l non_eseguibile.sh
+-rwxr--r-- 1 codespace codespace 41 Feb  2 11:10 non_eseguibile.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi/permessi (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/esercizi (main) $ cd ..
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli (main) $ cd sandbox
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ echo '#!/bin/bash
+echo "Ciao, sono uno script!"' > saluta.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ./saluta.sh
+bash: ./saluta.sh: Permission denied
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ chmod +x saluto.sh
+chmod: cannot access 'saluto.sh': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ chmod +x saluta.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ./saluta.sh
+Ciao, sono uno script!
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ mkdir -p azienda/{amministrazione/{fatture,contratti},sviluppo/{frontend,backend},risorse_umane/{assunzioni,stipendi}}
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ tree azienda
+azienda
+├── amministrazione
+│   ├── contratti
+│   └── fatture
+├── risorse_umane
+│   ├── assunzioni
+│   └── stipendi
+└── sviluppo
+    ├── backend
+    └── frontend
+
+10 directories, 0 files
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r rm -r azienda
+rm: cannot remove 'rm': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ 
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r aienda
+rm: cannot remove 'aienda': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ rm -r azienda
+rm: cannot remove 'azienda': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls
+alfa  beta  gamma  saluta.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls -l esercizi/permessi/
+ls: cannot access 'esercizi/permessi/': No such file or directory
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ cat << 'EOF' > segreto.sh
+#!/bin/bash
+echo "Hai scoperto il segreto!"
+EOF
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ chmod u=rwx,go= segreto.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ./segreto.sh
+Hai scoperto il segreto!
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ ls -l segreto.sh
+-rwx------ 1 codespace codespace 44 Feb 28 09:29 segreto.sh
+@VitoMongelli ➜ /workspaces/lezione-bash-01-VitoMongelli/sandbox (main) $ 
